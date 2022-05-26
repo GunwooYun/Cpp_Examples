@@ -1,24 +1,33 @@
 #include <iostream>
 
+using namespace std; // Define to use namespace std
+
 int main(int argc, char* argv[]) {
 	
 	int a = 1;
 	a = a << 1;
 	a <<= 1;
-	std::cout << "Hello, world" << std::endl;
-	std::cout << a << "\n\n";
-	std::cout << "Hello" << std::endl << "nice to meet you" << std::endl;
+	
+	/* std: namespace
+	*  cout : °´Ã¼, console out
+	* */
+	
 
+	//std::cout << "Hello, world" << std::endl;
+	//std::cout << a << "\n\n";
+	//std::cout << "Hello" << std::endl << "nice to meet you" << std::endl;
+
+	cout << "±¸±¸´Ü";
 	for (int i = 2; i <= 9; i++) {
 		for (int j = 1; j <= 9; j++)
-			std::cout << i << '*' << j << '=' << i * j<<std::endl;
-		std::cout << std::endl;
+			cout << i << '*' << j << '=' << i * j<<endl;
+		cout << endl;
 	}
 
 	for (int i = 1; i <= 9; i++) {
 		for (int j = 2; j <= 9; j++)
-			std::cout << j << '*' << i << '=' << i * j << "\t";
-		std::cout << std::endl;
+			cout << j << '*' << i << '=' << i * j << "\t";
+		cout << endl;
 	}
 
 		return 0;
