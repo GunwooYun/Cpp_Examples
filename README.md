@@ -1,3 +1,3 @@
 # Cpp_Examples
-*p42
-** dd
+* p42
+  * print text exam
