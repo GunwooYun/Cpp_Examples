@@ -4,20 +4,13 @@ using namespace std;
 
 int main()
 {
-	cout << "Enter address >> ";
-	char addr[100];
-	cin.getline(addr, 100, '*');
+    cout << "Enter your name >> ";
+    char name[20];
+    cin >> name;
 
-	cout << "Your address is " << addr;
+    cout << "Your name : " << name;
 
-#if 0
-	char name[20];
-	cout << "Enter your name >> ";
-	cin >> name;
-
-	cout << "Your name is " << name << endl;
-
-
+    #if 0
 	int width;
 	int height;
 	double dw;
@@ -28,11 +21,10 @@ int main()
 		
 	cin >> dw >> dh;
 
-
 	double area = dw * dh;
 	cout << "area is " << area << endl;
 
-#endif
+    #endif
 
 	return 0;
 }
