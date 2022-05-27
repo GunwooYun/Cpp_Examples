@@ -7,15 +7,22 @@ private:
 public:
 	Circle(); // basic constructor
 	Circle(int r); // 1 parameter constructor
+	~Circle();
 	double getArea(); // Declare method
 	double getRadius();
 };
 
-Circle::Circle() {
-	Circle(1);
-	//radius = 1;
-	//cout << "radius : " << radius << endl;
+//Circle::Circle() {
+//	//Circle(1);
+//	radius = 1;
+//	//cout << "radius : " << radius << endl;
+//}
+
+Circle::~Circle() {
+	cout << "소멸자 함수 실행 radius : " << radius << endl;
 }
+
+Circle::Circle():Circle(1){}
 
 Circle::Circle(int r) {
 	radius = r;

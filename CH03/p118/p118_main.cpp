@@ -6,23 +6,27 @@ private:
 	int width;
 	int height;
 public:
-	Rectangle();
-	Rectangle(int w, int h);
-	Rectangle(int w);
+	Rectangle(); // default constructor
+	Rectangle(int w, int h); // tow parameter constructor
+	Rectangle(int w); // one parameter constructor
 	bool isSquare();
 };
 
-Rectangle::Rectangle() {
-	width = 1;
-	height = 1;
+/* default */
+Rectangle::Rectangle():Rectangle(1) {
+	//width = 1; height = 1;
+
+	/* 필요시 코드 추가 가능 */
 }
 
-Rectangle::Rectangle(int w, int h) {
-	width = w; height = h;
+/* two parameters */
+Rectangle::Rectangle(int w, int h):width(1),height(1) {
+	//width = w; height = h;
 }
 
-Rectangle::Rectangle(int w) {
-	width = w; height = w;
+/* one parameter */
+Rectangle::Rectangle(int w):Rectangle(w, w) {
+	//width = w; height = w;
 }
 
 bool Rectangle::isSquare() {
