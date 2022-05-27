@@ -1,5 +1,8 @@
 # Cpp_Examples
-* p42
-  * print text exam
-* p65
-  * input and output data
+* CH01_Exam
+* CH02
+  * p42
+  * p65
+  * p76
+    * string class ( + getline() func)
+  
