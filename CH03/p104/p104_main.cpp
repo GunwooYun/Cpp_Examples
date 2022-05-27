@@ -47,6 +47,12 @@ int main(void) {
 
 	cout << "donut area is " << area << endl;
 
+	Circle* p;
+	p = &donut;
+
+	area = p->getArea();
+	cout << "pointer donut area is " << area << endl;
+
 	Circle pizza; // Get another instance
 
 	//pizza.radius = 30;
