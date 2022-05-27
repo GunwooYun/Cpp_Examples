@@ -7,4 +7,6 @@
     * string class ( + getline() func)
   * c_struct
     * c struct review
+* CH03
+  * empty
   
