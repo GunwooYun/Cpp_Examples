@@ -8,8 +8,8 @@ int main(void) {
 	string elvis("Elvis Presley");
 	string singer;
 
-	cout << song << " is sang by ";
-	cout << "(hint : first character is " << elvis[0] << ")?";
+	cout << song << " is sung by ";
+	cout << "(hint : first character is " << elvis[0] << ")? ";
 
 	getline(cin, singer); // cin 입력받아서 singer 에 저장
 	//cout << "input answer : " << singer;
