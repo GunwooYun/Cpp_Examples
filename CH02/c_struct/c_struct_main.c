@@ -1,4 +1,8 @@
+#define _CRT_SECURE_NO_WARNINGS
+
+
 #include <stdio.h>
+#include <string.h>
 
 struct student {
 	int id;
@@ -18,7 +22,8 @@ void printStudnet(Student *s) {
 	//printf("%d\n", sizeof(s) / sizeof(s[0]));
 	//printf("%d\n", sizeof(*s));
 	for (int i = 0; i < 2; i++)
-		printf("id : %d\tname : %s\tscore : %.1lf\n", s[i].id, s[i].name, s[i].score);
+		printf("id : %d\tname : %s\tscore : %.1lf\n", s->id, s->name, s->score);
+	s++;
 }
 
 int main(void) {
