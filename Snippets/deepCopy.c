@@ -23,6 +23,12 @@ int main()
     printf("s1 id : %d, p : %d\n", s1.id, *(s1.p));
     printf("s2 id : %d, p : %d\n", s2.id, *(s2.p));
 
+    s2.p = (int *)malloc(sizeof(int));
+    *(s2.p) = 30;
+
+    printf("s1 id : %d, p : %d\n", s1.id, *(s1.p));
+    printf("s2 id : %d, p : %d\n", s2.id, *(s2.p));
+
     return 0;
 
 
