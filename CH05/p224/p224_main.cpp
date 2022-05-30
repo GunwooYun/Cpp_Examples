@@ -34,10 +34,10 @@ void increase(Circle c) {
 }
 
 int main(void) {
+
 	Circle waffle(30);
 	increase(waffle);
 	cout << waffle.getRadius() << endl;
-
 
 	return 0;
 }
