@@ -13,7 +13,7 @@ int add(int* a, int idx){
 int add(int* a, int idx, int* b){
     int sum = 0;
     for(int i = 0; i < idx; i++){
-        sum = a[i] + b[i];
+        sum = sum + a[i] + b[i];
     }
     return sum;
 }
@@ -27,3 +27,8 @@ int main(){
     cout << c << endl;
     cout << d << endl;
 }
+
+/*
+15
+55
+*/

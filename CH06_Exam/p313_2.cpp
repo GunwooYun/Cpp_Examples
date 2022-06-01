@@ -1,29 +1,40 @@
 #include <iostream>
 using namespace std;
 
-int add(int* a, int idx){
-    int sum = 0;
-    for(int i = 0; i < idx; i++)
-        sum += a[i];
-    return sum;
-}
-
-
-
-int add(int* a, int idx, int* b){
-    int sum = 0;
-    for(int i = 0; i < idx; i++){
-        sum = a[i] + b[i];
+class Person{
+    int id;
+    double weight;
+    string name;
+public:
+    Person(){
+        this->id = 1;
+        this->weight = 20.5;
+        this->name = "Grace";
     }
-    return sum;
-}
+    Person(int id, string name){
+        this->id = id;
+        this->weight = 20.5;
+        this->name = name;
+    }
+    Person(int id, string name, double weight){
+        this->id = id;
+        this->weight = weight;
+        this->name = name;
+    }
+    void show(){
+        cout << id << ' ' << weight << ' ' << name << endl;
+    }
+};
 
 int main(){
-    int a[] = {1, 2, 3, 4, 5};
-    int b[] = {6, 7, 8, 9, 10};
-    int c = add(a, 5);
-    int d = add(a, 5, b);
-
-    cout << c << endl;
-    cout << d << endl;
+    Person grace, ashley(2, "Ashley"), helen(3, "Helen", 32.5);
+    grace.show();
+    ashley.show();
+    helen.show();
 }
+
+/*
+1 20.5 Grace
+2 20.5 Ashley
+3 32.5 Helen
+*/
