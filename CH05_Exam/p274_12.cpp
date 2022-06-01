@@ -11,14 +11,33 @@ public:
         this->size = size;
         scores = new int[size];
     }
-    Dept(const Dept& dept);
-    ~Dept();
+    //Dept(const Dept& dept); // copy constructor
+    ~Dept(); // deconstructor
     int getSize(){ return size; }
     void read();
     bool isOver60(int index);
 };
 
-int countPass(Dept dept){
+void Dept::read(){
+    cout << "10 scores enter >> ";
+    for(int i = 0; i < size; i++)
+        cin >> scores[i];
+}
+
+bool Dept::isOver60(int index){
+    if(scores[index] >= 60) return true;
+    else return false;
+}
+
+Dept::~Dept(){
+    if(scores) delete[] scores;
+}
+
+// Dept::Dept(const Dept& dept){
+
+// }
+
+int countPass(Dept& dept){ // call by reference <-- don't call copy constructor
     int count = 0;
     for(int i = 0; i < dept.getSize(); i++){
         if(dept.isOver60(i)) count++;
@@ -28,11 +47,10 @@ int countPass(Dept dept){
 
 int main(){
     Dept com(10);
-    com.read();
+    com.read(); // save scores entered to array
     int n = countPass(com);
-    cout << " above 60 points : " << n << endl;
+    cout << "above 60 points : " << n << endl;
 }
 
-/* OUTPUT : C++ 10000WON
-            JAVA 12000WON
+/* OUTPUT : above 60 points : 5
             */
