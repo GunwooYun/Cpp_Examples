@@ -19,7 +19,7 @@ Circle::Circle(int r) {
 	numOfCircles++;
 }
 
-int Circle::numOfCircles = 0;
+int Circle::numOfCircles = 0; // »ó¼Ó
 
 int main() {
 	Circle* p = new Circle[10];
