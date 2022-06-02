@@ -42,3 +42,8 @@ int main(){
 
     return 0;
 }
+
+/*
+young 20000WON 300 page
+vision 30000WON 500 page
+*/
