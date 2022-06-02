@@ -19,6 +19,7 @@ public:
 	}
 };
 
+// »ó¼Ó
 class ColorPoint :public Point {
 private:
 	string color;
@@ -36,6 +37,16 @@ void ColorPoint::showColorPoint() {
 
 int main()
 {
+	ColorPoint cp;
+	ColorPoint* pDer = &cp;
+	Point* pBase = pDer; // upcasting
+
+	pDer->set(10, 20);
+	pBase->showPoint();
+	//pDer->showPoint();
+
+
+#if 0
 	Point p(3,3);
 	p.showPoint();
 	ColorPoint cp;
@@ -43,4 +54,5 @@ int main()
 	cp.setColor("red");
 	cp.showColorPoint();
 	return 0;
+#endif
 }
