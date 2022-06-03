@@ -1,3 +1,4 @@
+/* Page 118. Exam 3-6. constructor */
 #include <iostream>
 using namespace std;
 
@@ -46,3 +47,9 @@ int main()
 	if (r3.isSquare()) cout << "r3 is rectangler" << endl;
 	return 0;
 }
+
+/*
+r1 is rectangler
+r2 is rectangler
+r3 is rectangler
+*/
