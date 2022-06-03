@@ -1,3 +1,4 @@
+/* Page 353. Exam 7-12. operator & friend */
 #include <iostream>
 using namespace std;
 
@@ -41,3 +42,10 @@ int main() {
 
 	return 0;
 }
+
+/*
+kick=3,punch=3
+kick=3,punch=3
+kick=6,punch=6
+두 파워가 같다
+*/

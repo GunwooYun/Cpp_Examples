@@ -1,3 +1,4 @@
+/* Page 358. Exam 7-14. return reference */
 #include <iostream>
 using namespace std;
 
@@ -27,3 +28,7 @@ int main() {
 	a << 3 << 5 << 6; // 객체 a에 3,5,6이순서대로 더해진다.
 	a.show();
 }
+
+/*
+kick=15,punch=16
+*/
