@@ -1,4 +1,4 @@
-/* Page 104. Exam 3-1. class, conturctor, deconstructor */
+/* Page 104. Exam 3-1. class, conturctor, destructor */
 #include <iostream>
 using namespace std;
 
