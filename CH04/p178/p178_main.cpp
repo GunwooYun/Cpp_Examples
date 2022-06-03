@@ -1,4 +1,4 @@
-/* Page 178. Exam 4-7 */
+/* Page 178. Exam 4-7. dynamic allocation, deallocation */
 
 #include <iostream>
 using namespace std;
@@ -72,3 +72,11 @@ void circle_print(Circle* cp) {
 		cp++;
 	}
 }
+
+/*
+포인터 p의 area : 3.14
+포인터 q의 area : 2826
+포인터 p0의 area : 314
+포인터 p1의 area : 1256
+포인터 p2의 area : 2826
+*/
