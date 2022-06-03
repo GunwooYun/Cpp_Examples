@@ -36,3 +36,10 @@ int main() {
 
 	return 0;
 }
+
+/*
+Alive circle numbers = 10
+Alive circle numbers = 0
+Alive circle numbers = 1
+Alive circle numbers = 2
+*/
