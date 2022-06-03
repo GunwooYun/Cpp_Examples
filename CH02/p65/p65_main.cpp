@@ -1,3 +1,4 @@
+/* Page 65. Exam 2-3. input */
 #include <iostream>
 #include <string>
 using namespace std;
@@ -36,3 +37,8 @@ int main()
 
 	return 0;
 }
+
+/*
+Enter address >> seoul*
+Your address is seoul
+*/
