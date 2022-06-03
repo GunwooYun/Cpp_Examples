@@ -21,3 +21,7 @@ int main(void) {
 
 	return 0;
 }
+
+/*
+m : 9 n : 2
+*/
