@@ -1,3 +1,4 @@
+/* Page 106. Exam 3-2. instance */
 #include <iostream>
 using namespace std;
 
@@ -24,3 +25,7 @@ int main(void) {
 
 	return 0;
 }
+
+/*
+Rectangle area is 15
+*/
