@@ -29,3 +29,7 @@ int main() {
 	else cout << "not equal" << endl;
 	return 0;
 }
+
+/*
+equal
+*/
