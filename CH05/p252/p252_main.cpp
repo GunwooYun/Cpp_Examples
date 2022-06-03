@@ -70,3 +70,14 @@ int main()
 
 	return 0;
 }
+
+/*
+after making instance of daughter ----
+1, Kitae
+1, Kitae
+after changing daughter name to Grace ----
+1, Kitae
+1, Grace
+delete isntance of Grace
+delete isntance of Kitae
+*/
