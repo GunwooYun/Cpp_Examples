@@ -3,7 +3,6 @@
 /* Contructor */
 PrivateAccessError::PrivateAccessError() {
 	a = b = 1;
-	//c = d = 1;
 }
 
 PrivateAccessError::PrivateAccessError(int x) :PrivateAccessError() {

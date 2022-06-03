@@ -22,6 +22,5 @@ public:
 	//int getc();
 };
 
-
 #endif // !_PrivateAccessError_H_
 
