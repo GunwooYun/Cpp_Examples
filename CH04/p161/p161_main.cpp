@@ -1,3 +1,4 @@
+/* Page 161. Exam 4-2. class array */
 #include <iostream>
 using namespace std;
 
@@ -52,3 +53,15 @@ void circle_print(Circle* cp) {
 		cp++;
 	}
 }
+
+/*
+Circle 의 면적은 314 입니다
+Circle 의 면적은 314 입니다
+Circle 의 면적은 1256 입니다
+Circle 의 면적은 1256 입니다
+Circle 의 면적은 2826 입니다
+Circle 의 면적은 2826 입니다
+[circle_print]Circle 의 면적은 314 입니다
+[circle_print]Circle 의 면적은 1256 입니다
+[circle_print]Circle 의 면적은 2826 입니다
+*/
