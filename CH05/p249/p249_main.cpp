@@ -69,3 +69,8 @@ void circle_print(Circle* cp) {
 		cp++;
 	}
 }
+
+/*
+원본의 면적 = 2826
+사본의 면적 = 2826
+*/
