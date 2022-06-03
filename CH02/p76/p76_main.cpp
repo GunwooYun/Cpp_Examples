@@ -1,3 +1,4 @@
+/* Page 76. Exam 2-7. string class */
 #include <iostream>
 #include <string>
 using namespace std;
