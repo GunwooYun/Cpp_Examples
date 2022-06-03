@@ -1,3 +1,4 @@
+/* Page 379. Exam 8-1. inherit, up&down casting */
 #include <iostream>
 #include <string>
 using namespace std;

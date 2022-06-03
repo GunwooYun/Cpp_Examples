@@ -1,3 +1,4 @@
+/* Page 395. Exam 8-3. Inherit, constructor parameter */
 #include <iostream>
 #include <string>
 
@@ -47,3 +48,9 @@ int main() {
 	cout << "ip : " << htv.getIpAddr() << endl;
 
 }
+
+/*
+size : 32
+video in : true
+ip : 192.168.0.2
+*/

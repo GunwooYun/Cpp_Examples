@@ -1,3 +1,4 @@
+/* Page 390. Pic 8-13. Constructor, Destructor */
 #include <iostream>
 using namespace std;
 
@@ -21,3 +22,12 @@ int main() {
 	C c;
 	return 0;
 }
+
+/*
+持失切 A
+持失切 B
+持失切 C
+社瑚切 C
+社瑚切 B
+社瑚切 A
+*/

@@ -1,3 +1,4 @@
+/* Page 388. Exam 8-2. inherit, protected */
 #include <iostream>
 using namespace std;
 
@@ -38,6 +39,11 @@ bool ColorPoint::equals(ColorPoint p) {
 int main() {
 	Point p;
 	p.set(2, 3);
-	p.x = 5;
-	p.y = 5;
+	//p.x = 5;
+	//p.y = 5;
+	p.showPoint();
 }
+
+/*
+(2,3)
+*/
