@@ -1,3 +1,4 @@
+/* Page 486. Exam 10-5. Duplicated & Generic */
 #include <iostream>
 using namespace std;
 
