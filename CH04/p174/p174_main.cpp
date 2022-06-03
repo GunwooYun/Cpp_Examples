@@ -1,3 +1,4 @@
+/* Page 174. Exam 4-6. dynamic allocation */
 #include <iostream>
 using namespace std;
 
@@ -36,3 +37,11 @@ int main()
 
 	return 0;
 }
+
+/*
+Enter number of integer? 3
+1 of integer : 10
+2 of integer : 20
+3 of integer : 30
+Average : 20
+*/
