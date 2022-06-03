@@ -1,4 +1,4 @@
-/* Page 104. Exam 3-1. class */
+/* Page 104. Exam 3-1. class, conturctor, deconstructor */
 #include <iostream>
 using namespace std;
 
@@ -72,3 +72,21 @@ int main(void) {
 
 	return 0;
 }
+
+/*
+radius : 1
+test 1
+donut area is 3.14
+pointer donut area is 3.14
+radius : 1
+pizza area is 3.14
+pizza size is 4
+radius : 1
+one area is 3.14
+radius : 10
+round area is 314
+소멸자 함수 실행 radius : 10
+소멸자 함수 실행 radius : 1
+소멸자 함수 실행 radius : 1
+소멸자 함수 실행 radius : 1
+*/
