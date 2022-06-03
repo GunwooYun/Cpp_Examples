@@ -54,3 +54,9 @@ int main() {
 	cout << p->pop() << endl;
 	delete p; // 메모리 해제
 }
+
+/*
+3
+3.5
+a
+*/
