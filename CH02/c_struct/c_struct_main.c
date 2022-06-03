@@ -1,3 +1,4 @@
+/* C review */
 #define _CRT_SECURE_NO_WARNINGS
 
 
@@ -81,13 +82,8 @@ Student* readStudent(const char* file_name) {
 
 int main(int argc, char* argv[]) {
 
-	
-	
-
-	
 	Student* s = readStudent("st.db");
 	
-
 	//struct student s1 = {1, "ABC", 85.0};
 	//Student s2;
 	//Student s[2] = { { 1, "ABC", 85.0 }, { 2, "DEF", 90.0 } };
@@ -113,3 +109,8 @@ int main(int argc, char* argv[]) {
 
 	return 0;
 }
+
+/*
+id : 1  name : ABC      score : 85.0
+id : 2  name : DEF      score : 90.0
+*/
