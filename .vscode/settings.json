@@ -5,6 +5,7 @@
         "xstring": "cpp",
         "system_error": "cpp",
         "xlocnum": "cpp",
-        "xmemory": "cpp"
+        "xmemory": "cpp",
+        "vector": "cpp"
     }
 }
