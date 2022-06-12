@@ -1,4 +1,4 @@
 # Cpp_Examples
 * Book : 명품 C++ programming
-* CHn : Chaptern example codes
-* CHn_Exam : Chaptern's questions
+* CHn : Chapter(n) example codes
+* CHn_Exam : Chapter(n) questions
